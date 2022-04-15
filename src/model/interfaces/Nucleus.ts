@@ -8,4 +8,5 @@ export interface Nucleus {
     phone: string
     facebook: string
     ofProject: Project["id"]
+    mapsLink: string
 }

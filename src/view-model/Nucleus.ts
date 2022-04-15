@@ -1,3 +1,4 @@
+import { Project } from "../model/interfaces/Project"
 import { Nucleus as NucleusRepository } from "../model/repositories/Nucleus"
 
 export class Nucleus {
