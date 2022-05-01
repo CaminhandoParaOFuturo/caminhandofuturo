@@ -1,4 +1,4 @@
-import { ProjectInterface as ProjectInterface } from "../interfaces/Project"
+import { Project as ProjectInterface } from "../interfaces/Project"
 
 export class Project {
     private api_url!: string
