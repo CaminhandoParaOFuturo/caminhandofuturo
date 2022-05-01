@@ -1,4 +1,4 @@
-import { Project as ProjectInterface } from "../interfaces/Project"
+import { ProjectInterface as ProjectInterface } from "../interfaces/Project"
 
 export class Project {
     private api_url!: string
@@ -14,6 +14,17 @@ export class Project {
     }
     
     async getAll(): Promise<ProjectInterface[]> {
-        return (await fetch(this.endpoint_url)).json()
+        return projectList
     }
 }
+
+let projectList: ProjectInterface[] = [
+    {
+        id: "CEI",
+        name: "CENTRO DE EDUCAÇÃO INFANTIL"
+    },
+    {
+        id: "CCA",
+        name: "CENTRO DE CRIANÇA E ADOLESCENTE"   
+    }
+]

@@ -36,3 +36,7 @@
 .infosCCA {
     color: #ff716a
 }
+
+.nobr {
+    white-space: nowrap;
+}
