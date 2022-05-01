@@ -28,7 +28,7 @@ export const NucleusComponent: NextPage<{nucleus: Nucleus}> = (props) => {
         <div className={nucleus.ofProject == "CEI" ? styles.infosCEI : styles.infosCCA}>
           <p><a target="_blank" href={nucleus.mapsLink}><Place fontSize="inherit"></Place> {nucleus.address}</a></p>
           <p><Phone fontSize="inherit"></Phone> {nucleus.phone}</p>
-          <p><Email fontSize="inherit"></Email> {nucleus.email}</p>
+          <p><nobr><Email fontSize="inherit"></Email> </nobr>{nucleus.email}</p>
           <p><FacebookRounded fontSize="inherit"></FacebookRounded> <a target="_blank" href={nucleus.facebook}>Facebook</a></p>
         </div>
       </CardContent>

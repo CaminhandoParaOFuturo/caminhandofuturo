@@ -16,7 +16,7 @@ const Nucleus: NextPage<{projectList: Project[]}> = (props) => {
           <Grid container spacing={2}
             columns={{ xs: 1, sm: 2, md: 3, lg: 4, xl: 5 }}>
             {project.nucleusList.map(nucleus =>
-              <Grid item maxWidth={380} key={nucleus.title}>
+              <Grid item xs={1} key={nucleus.title}>
                   <NucleusComponent nucleus={nucleus}></NucleusComponent>
               </Grid>
             )}

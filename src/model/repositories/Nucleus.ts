@@ -6,7 +6,7 @@ export class Nucleus {
     private endpoint = 'nucleus'
 
     constructor() {
-        if(process.env.API_URL === undefined)
+        if(!process.env.API_URL)
             throw `Environment API_URL not set`
         
         this.api_url = process.env.API_URL
