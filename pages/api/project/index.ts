@@ -25,8 +25,8 @@ let projectList: Project[] = [
         id: "CCA",
         name: "CENTRO DE CRIANÇA E ADOLESCENTE"   
     },
-    {
-        id: "NA",
-        name: "NÚCLEOS DE APRENDIZAGEM"
-    }
+    // {
+    //     id: "NA",
+    //     name: "NÚCLEOS DE APRENDIZAGEM"
+    // }
 ]

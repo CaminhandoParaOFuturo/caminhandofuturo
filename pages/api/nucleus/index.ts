@@ -19,7 +19,7 @@ export default async function handler(
 export let nucleusList: Nucleus[] = [
     {
       title: "CEI Brincando Também se Aprende",
-      description: "95 crianças atendidas, faixa etária de 2 a 3 anos e 11 meses de idade",
+      description: "95 crianças atendidas <br/> Faixa etária de 2 a 3 anos de idade",
       address: "Rua dos Patis, 308 - Vila Nova Cachoeirinha",
       email: "bta@caminhandofuturo.org.br",
       phone: "11 3983-3867",
@@ -29,7 +29,7 @@ export let nucleusList: Nucleus[] = [
     },
     {
       title: "CEI Girassol",
-      description: "60 crianças atendidas, faixa etária de 3 a 4 anos de idade",
+      description: "60 crianças atendidas <br/> Faixa etária de 3 a 4 anos de idade",
       address: "Rua Herman Rechter, 08 - Vila Penteado",
       email: "girassol@caminhandofuturo.org.br",
       phone: "11 3986-0516",
@@ -39,7 +39,7 @@ export let nucleusList: Nucleus[] = [
     },
     {
       title: "CEI Pingo de Gente",
-      description: "137 crianças atendidas, faixa etária de 0 a 3 anos de idade",
+      description: "137 crianças atendidas <br/> Faixa etária de 0 a 3 anos de idade",
       address: "Rua Daniel Pereira, 238 - Parque Tietê",
       email: "pingodengente@caminhandofuturo.org.br",
       phone: "11 3851-9034",
@@ -49,7 +49,7 @@ export let nucleusList: Nucleus[] = [
     },
     {
       title: "CEI Primeiros Passos",
-      description: "141 crianças atendidas, faixa etária de 1 a 3 anos e 11 meses de idade",
+      description: "141 crianças atendidas <br/> Faixa etária de 1 a 3 anos de idade",
       address: "Rua Morato de Oliveira, 400 - Parque Itaberaba",
       email: "primeirospassos@caminhandofuturo.org.br",
       phone: "11 3989-3383",
@@ -59,7 +59,7 @@ export let nucleusList: Nucleus[] = [
     },
     {
       title: "CEI Téquinho do Céu",
-      description: "147 crianças atendidas, faixa etária de 3 a 4 anos",
+      description: "147 crianças atendidas <br/> Faixa etária de 3 a 4 anos",
       address: "Praça Jequié, 38 - Jardim Maracanã",
       email: "tequinho@caminhandofuturo.org.br",
       phone: "11 3984-9889",
@@ -69,17 +69,17 @@ export let nucleusList: Nucleus[] = [
     },
     {
       title: "CCA Arte na Rua",
-      description: "121 crianças atendidas, faixa etária de 6 a 15 anos e 11 meses de idade",
+      description: "121 crianças atendidas <br/> Faixa etária de 6 a 15 anos de idade",
       address: "Rua Eduardo Costa, 192 – Jardim Damasceno",
-      email: "11 3921-9107",
-      phone: "artenarua@caminhandofuturo.org.br",
+      email: "artenarua@caminhandofuturo.org.br",
+      phone: "11 3921-9107",
       facebook: "https://www.facebook.com/Nucleo.Arte.na.Rua",
       ofProject: "CCA",
       mapsLink: "https://www.google.com.br/maps/place/CCA+ARTE+NA+RUA/@-23.5147002,-46.7623715,12z/data=!4m9!1m2!2m1!1sCCA+Arte+na+Rua!3m5!1s0x94cefa2617630929:0xa5bd86577f7256f8!8m2!3d-23.4482668!4d-46.6969788!15sCg9DQ0EgQXJ0ZSBuYSBSdWGSAQZzY2hvb2w"
     },
     {
       title: "CCA Beija-Flor",
-      description: "240 crianças atendidas, faixa etária de 6 a 15 anos de idade",
+      description: "240 crianças atendidas <br/> Faixa etária de 6 a 15 anos de idade",
       address: "Rua Ubaldo Mendes de Oliveira, 150 - Jardim Carombé",
       email: "beijaflor@caminhandofuturo.org.br",
       phone: "11 3922-7188",
@@ -89,7 +89,7 @@ export let nucleusList: Nucleus[] = [
     },
     {
       title: "CCA Caminhando",
-      description: "184 crianças atendidas, faixa etária de 6 a 15 anos de idade",
+      description: "184 crianças atendidas <br/> Faixa etária de 6 a 15 anos de idade",
       address: "Rua Cunhanrequaro, 93 – Vila Cosmopolita",
       email: "cpf@caminhandofuturo.org.br",
       phone: "11 3984-8625",
@@ -99,22 +99,12 @@ export let nucleusList: Nucleus[] = [
     },
     {
       title: "CCA Canarinho",
-      description: "180 crianças atendidas, faixa etária de 6 a 15 anos de idade",
+      description: "180 crianças atendidas <br/> Faixa etária de 6 a 15 anos de idade",
       address: "Rua Raimundo Carneiro, 180 - Jardim Carombé",
       email: "canarinho@caminhandofuturo.org.br",
       phone: "11 3921-7324",
       facebook: "https://www.facebook.com/cca.canarinho.3",
       ofProject: "CCA",
       mapsLink: "https://www.google.com.br/maps/place/CCA+CANARINHO/@-23.4560486,-46.7026222,17z/data=!3m1!4b1!4m5!3m4!1s0x94cefa281981dbb9:0x37e872002293556!8m2!3d-23.4560536!4d-46.7004335"
-    },
-    {
-      title: "Caminhando para o Futuro",
-      description: "Caminhando para o Futur",
-      address: "Rua Herman Rechter, 43 B - Vila Penteado",
-      email: "nucleodeaprendizagem@caminhandofuturo.org.br",
-      phone: "11 2476-2654",
-      facebook: "https://www.facebook.com/programaaprendiz",
-      ofProject: "NA",
-      mapsLink: "https://www.google.com.br/maps/place/Caminhando+para+o+Futuro/@-23.4713867,-46.6818113,17z/data=!3m1!4b1!4m5!3m4!1s0x94cef9c2f2f79117:0x9df7357e7e480b46!8m2!3d-23.4714189!4d-46.6796132"
-    },
+    }
 ]
