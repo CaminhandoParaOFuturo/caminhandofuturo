@@ -1,4 +1,4 @@
-import { NucleusInterface as NucleusInterface } from "../interfaces/Nucleus"
+import { Nucleus as NucleusInterface } from "../interfaces/Nucleus"
 
 export class Nucleus {
     private api_url!: string
