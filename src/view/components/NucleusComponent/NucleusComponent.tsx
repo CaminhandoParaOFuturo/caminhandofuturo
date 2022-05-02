@@ -4,10 +4,8 @@ import styles from "./style.module.css"
 import { Nucleus } from "../../../model/interfaces/Nucleus"
 import { Card, CardContent, CardMedia, Typography } from "@mui/material"
 import { Markup } from 'interweave'
-import { polyfill } from 'interweave-ssr'
 
 export const NucleusComponent: NextPage<{nucleus: Nucleus}> = (props) => {
-  polyfill()
   const nucleus = props.nucleus
 
   return (
