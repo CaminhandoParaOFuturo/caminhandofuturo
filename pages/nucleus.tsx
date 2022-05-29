@@ -1,4 +1,4 @@
-import Nucleus from "../src/view/features/NucleusList/Nucleus"
+import NucleusList from "../src/view/features/NucleusList/NucleusList"
 import { Nucleus as NucleusViewModel } from "../src/view-model/Nucleus"
 import { Project as ProjectViewModel } from "../src/view-model/Project"
 
@@ -22,4 +22,4 @@ export async function getServerSideProps(context: any) {
       props: { projectList }
     }
   }
-export default Nucleus
+export default NucleusList

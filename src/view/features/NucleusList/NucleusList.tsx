@@ -5,7 +5,7 @@ import styles from "../../../../styles/Nucleus.module.css"
 import { Email, FacebookRounded, Phone, Place } from "@mui/icons-material";
 import { NucleusListItemComponent } from "../../components/NucleusListItemComponent/NucleusListItemComponent";
 
-const Nucleus: NextPage<{projectList: Project[]}> = (props) => {
+const NucleusList: NextPage<{projectList: Project[]}> = (props) => {
   const projectList = props.projectList
 
   const projList = projectList.map(project => {
@@ -34,4 +34,4 @@ const Nucleus: NextPage<{projectList: Project[]}> = (props) => {
   )
 }
 
-export default Nucleus
+export default NucleusList
