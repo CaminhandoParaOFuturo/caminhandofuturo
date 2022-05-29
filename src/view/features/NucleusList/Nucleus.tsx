@@ -3,7 +3,7 @@ import { Project } from "../../../model/interfaces/Project"
 import { Box, Container, Grid } from "@mui/material"
 import styles from "../../../../styles/Nucleus.module.css"
 import { Email, FacebookRounded, Phone, Place } from "@mui/icons-material";
-import { NucleusComponent } from "../../components/NucleusComponent/NucleusComponent";
+import { NucleusListItemComponent } from "../../components/NucleusListItemComponent/NucleusListItemComponent";
 
 const Nucleus: NextPage<{projectList: Project[]}> = (props) => {
   const projectList = props.projectList
@@ -17,7 +17,7 @@ const Nucleus: NextPage<{projectList: Project[]}> = (props) => {
             columns={{ xs: 1, sm: 2, md: 3, lg: 4, xl: 5 }}>
             {project.nucleusList.map(nucleus =>
               <Grid item xs={1} key={nucleus.title}>
-                  <NucleusComponent nucleus={nucleus}></NucleusComponent>
+                  <NucleusListItemComponent nucleus={nucleus}></NucleusListItemComponent>
               </Grid>
             )}
           </Grid>
