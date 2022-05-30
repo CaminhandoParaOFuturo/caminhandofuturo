@@ -6,8 +6,6 @@ const home = () => {
   return <>
 <Sobre/>
   </>
-
-  
 }
 
 export default home
