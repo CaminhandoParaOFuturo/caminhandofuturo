@@ -1,0 +1,68 @@
+.sobre {
+  display: flex;
+  justify-content: right;
+  flex-direction: column;
+  padding: 4rem;
+  width: 100vw;
+}
+.pSobre {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+
+.nosSobre {
+  width: 90px;
+  top: 861px;
+  font-family: 'Baloo 2';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: -0.02em;
+  color: #7c7c7c;
+}
+
+.instSobre {
+  width: 261px;
+  height: 108px;
+  left: 130px;
+  top: 907px;
+  font-family: 'Baloo 2';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 52px;
+  line-height: 54px;
+  letter-spacing: -0.02em;
+  color: #303030;
+}
+.divSobreCard {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.sobreCard {
+  box-sizing: border-box;
+  width: 400px;
+  height: 452px;
+  left: 100px;
+  top: 1084px;
+  background: #c7b1ea;
+  border: 1px solid #733dcb;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+  border-radius: 40px;
+}
+
+.sobreCard p {
+  width: 187px;
+  height: 104px;
+  left: 562px;
+  top: 1390px;
+  font-family: 'Baloo 2';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 52px;
+  line-height: 52px;
+  letter-spacing: -0.02em;
+}

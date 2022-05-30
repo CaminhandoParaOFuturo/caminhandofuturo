@@ -1,0 +1,109 @@
+.header {
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  background: linear-gradient(
+      rgba(115, 61, 203, 0.65),
+      rgba(115, 61, 203, 0.65)
+    ),
+    url(/public/images/children-playing-grass\ 1.png) no-repeat;
+  background-size: cover;
+  border: 28px solid #ffffff;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.divMenu {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+.divMenu img {
+  height: 103px;
+  width: 223px;
+  left: 100px;
+  top: 72px;
+  border-radius: 0px;
+  background-size: cover;
+}
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.menu ul {
+  display: flex;
+  list-style: none;
+}
+.menu li {
+  padding: 1rem;
+  color: #ffffff;
+  font-family: Baloo 2;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 72px;
+  letter-spacing: -0.02em;
+  text-align: left;
+}
+.divTextosContainer {
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+  width: 100%;
+  flex-wrap: nowrap;
+}
+.divTextos {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  align-items: center;
+}
+
+.divTextoP {
+  display: flex;
+  align-items: center;
+  width: 477px;
+  height: 216px;
+  left: 100px;
+  top: 274px;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 72px;
+  line-height: 72px;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+  padding: 2rem;
+}
+
+.botao {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 223px;
+  height: 48px;
+  left: 100px;
+  top: 538px;
+  background: #ff5d55;
+  border-radius: 100px;
+}
+.botao h1 {
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 22px;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+  padding: 2rem;
+}
+
+.btnDivScroll {
+  width: 100%;
+  background-color: #ff5d55;
+  bottom: 0;
+  left: 0;
+}

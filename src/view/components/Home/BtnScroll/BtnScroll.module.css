@@ -1,0 +1,14 @@
+.btnDivScroll {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 10rem;
+}
+
+.btnDivScroll img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: #ffffff;
+}
