@@ -5,7 +5,7 @@ import { Nucleus } from "../../../model/interfaces/Nucleus"
 import { Card, CardContent, CardMedia, Typography } from "@mui/material"
 import { Markup } from 'interweave'
 
-export const NucleusComponent: NextPage<{nucleus: Nucleus}> = (props) => {
+export const NucleusListItemComponent: NextPage<{nucleus: Nucleus}> = (props) => {
   const nucleus = props.nucleus
 
   return (
@@ -31,26 +31,6 @@ export const NucleusComponent: NextPage<{nucleus: Nucleus}> = (props) => {
         </div>
       </CardContent>
     </Card>
-    // <div className={styles.card}>
-    //   {/* <Image
-    //     src="/images/cei-brincando_tambem_se_aprende.png"
-    //     height={}>
-    //   </Image> */}
-    //   <img
-    //     src="/images/cei-brincando_tambem_se_aprende.png"
-    //     className="img-thumbnail"
-    //     alt={`Imagem da faixada do núcleo ${nucleus.title}`}>
-    //   </img>
-    //   <h4 className={styles.title}>{nucleus.title}</h4>
-
-    //   <p>{nucleus.description}</p>
-
-    //   <a target="_blank" href={nucleus.mapsLink}><Place fontSize="inherit"></Place> {nucleus.address}</a><br/>
-    //   <text><Email fontSize="inherit"></Email> {nucleus.email}</text><br/>
-    //   <text><Phone fontSize="inherit"></Phone> {nucleus.phone}</text>
-
-    //   <p><FacebookRounded fontSize="inherit"></FacebookRounded> <a target="_blank" href={nucleus.facebook}>Facebook</a></p>
-    // </div>
   )
 }
 
