@@ -1,7 +1,7 @@
 import { Email, FacebookRounded, Phone, Place } from "@mui/icons-material"
 import { NextPage } from "next"
 import styles from "./style.module.css"
-import { Card, CardContent, CardMedia, Typography } from "@mui/material"
+import { Button, Card, CardContent, CardMedia, Grid, Typography } from "@mui/material"
 import { Markup } from 'interweave'
 import { Project } from "../../../model/interfaces/Project"
 
@@ -9,10 +9,12 @@ export const ProjectListItemComponent: NextPage<{project: Project}> = (props) =>
   const project = props.project
 
   return (
-    <Card>
+    <Card
+      sx={{ boxShadow: 0 }}
+    >
       <CardMedia
         component="img"
-        height="230"
+        height="350"
         image={`/images/${project.image}`}
         alt={`Imagem do projeto ${project.name}`}
       />
@@ -28,7 +30,35 @@ export const ProjectListItemComponent: NextPage<{project: Project}> = (props) =>
           {project.targetAudience}
         </p>
 
-        <Markup content={project.description}></Markup>
+        {/* <Grid container spacing={2}
+          columns={1}>
+          <Grid item xs={1} key="content">
+            <Markup
+              content={project.description}
+            ></Markup>
+          </Grid>
+          <Grid item xs={1} key="space">
+          </Grid>
+          <Grid item xs={1} key="button">
+            <Button
+              variant="contained"
+              className={project.id == "CEI" ? styles.buttonCEI : styles.buttonCCA}
+            >
+              ver unidades
+            </Button>
+          </Grid>
+        </Grid> */}
+
+        <Markup
+          content={project.description}
+        ></Markup>
+
+        <Button
+          variant="contained"
+          className={project.id == "CEI" ? styles.buttonCEI : styles.buttonCCA}
+        >
+          ver unidades
+        </Button>
       </CardContent>
     </Card>
   )

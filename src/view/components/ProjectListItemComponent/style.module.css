@@ -18,10 +18,12 @@
 .cardCEI {
     overflow-wrap: break-word;
     border: 2px solid #966ed8;
+    height: 325px;
 }
 .cardCCA {
     overflow-wrap: break-word;
     border: 2px solid #ff5d55;
+    height: 325px;
 }
 
 .infosCEI::before {
@@ -35,6 +37,19 @@
 }
 .infosCCA {
     color: #ff716a
+}
+
+.buttonCEI {
+    border-radius: 30px;
+    text-transform: none;
+    background-color: #733dcb;
+    font-family: "Baloo 2";
+}
+.buttonCCA {
+    border-radius: 30px;
+    text-transform: none;
+    background-color: #ff716a;
+    font-family: "Baloo 2";
 }
 
 .nobr {
