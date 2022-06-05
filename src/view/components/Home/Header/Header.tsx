@@ -1,6 +1,6 @@
 import React from 'react';
-import BtnScroll from '../BtnScroll/BtnScroll';
 import BtnScrollHeader from '../BtnScrollHeader/BtnScrollHeader';
+import Link from 'next/link'
 import styles from './Header.module.css';
 
 
@@ -12,7 +12,11 @@ const Header = () => {
         <img src={'/images/Artboard 1 1.png'} alt="logo" />
         <div className={styles.menu}>
           <ul>
-            <li>Home</li>
+            <li>
+            <Link href="/home">
+          <a>Home</a>
+        </Link>
+            </li>
             <li>Sobre Nós</li>
             <li>Ajude</li>
             <li>Parceiros</li>
