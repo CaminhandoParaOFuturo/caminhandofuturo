@@ -3,7 +3,7 @@
   justify-content: right;
   flex-direction: column;
   padding: 4rem;
-  width: 100vw;
+  width: 100%;
 }
 .pSobre {
   display: flex;
@@ -65,4 +65,44 @@
   font-size: 52px;
   line-height: 52px;
   letter-spacing: -0.02em;
+}
+.CardAjude {
+  display: flex;
+  justify-content: center;
+  height: 452px;
+  width: 350px;
+  border-radius: 40px;
+  margin-top: 2rem;
+  background: #c7b1ea;
+  border: 1px solid #733dcb;
+  color: #733dcb;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+  border-radius: 40px;
+}
+.cardProjetos {
+  display: flex;
+  justify-content: center;
+  height: 452px;
+  width: 350px;
+  border-radius: 40px;
+  margin-top: 2rem;
+  color: #ffbf1f;
+  background: #ffeab7;
+  border: 1px solid #ffbf1f;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+  border-radius: 40px;
+}
+.cardQuemSomos {
+  display: flex;
+  justify-content: center;
+  height: 452px;
+  width: 350px;
+  border-radius: 40px;
+  margin-top: 2rem;
+  border-radius: 40px;
+  background: #ffc9c7;
+  border: 1px solid #ff5d55;
+  color: #ff5d55;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+  border-radius: 40px;
 }

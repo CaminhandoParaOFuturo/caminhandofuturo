@@ -1,12 +1,15 @@
 import React from 'react';
-import styles from './Header.module.css';
 import BtnScroll from '../BtnScroll/BtnScroll';
+import BtnScrollHeader from '../BtnScrollHeader/BtnScrollHeader';
+import styles from './Header.module.css';
+
 
 const Header = () => {
   return (
+    <>
     <div className={styles.header}>
       <div className={styles.divMenu}>
-        <img src='../imgs/Artboard 1 1.png' alt="logo" />
+        <img src={'/images/Artboard 1 1.png'} alt="logo" />
         <div className={styles.menu}>
           <ul>
             <li>Home</li>
@@ -27,9 +30,11 @@ const Header = () => {
             <h1>faça sua doação</h1>
           </div>
         </div>
-        <BtnScroll />
-      </div>
+       <BtnScrollHeader/>
+      </div>  
     </div>
+
+    </>
   );
 };
 

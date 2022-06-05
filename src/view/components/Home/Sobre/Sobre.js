@@ -10,9 +10,21 @@ const Sobre = () => {
         <p className={styles.instSobre}>Conheça a instituição </p>
       </div>
       <div className={styles.divSobreCard}>
-        <CardsSobre imagem="" texto="Nossos projetos" cores={styles.divSobre} />
-        <CardsSobre imagem="" texto="Nossos projetos" cores={styles.divSobre} />
-        <CardsSobre imagem="" texto="Nossos projetos" cores={styles.divSobre} />
+        <CardsSobre
+          img="/images/002-heart 3.png"
+          texto="ajude a instituição"
+          cores={styles.CardAjude}
+        />
+        <CardsSobre
+          img="/images/003-building 1.png"
+          texto="nossos projetos"
+          cores={styles.cardProjetos}
+        />
+        <CardsSobre
+          img="/images/001-user 1.png"
+          texto="quem somos"
+          cores={styles.cardQuemSomos}
+        />
       </div>
     </div>
   );

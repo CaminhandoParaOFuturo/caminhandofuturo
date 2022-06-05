@@ -11,7 +11,7 @@
       rgba(115, 61, 203, 0.65),
       rgba(115, 61, 203, 0.65)
     ),
-    url(/public/images/children-playing-grass\ 1.png) no-repeat;
+    url(/images/children-playing-grass\ 1.png) no-repeat;
   background-size: cover;
   border: 28px solid #ffffff;
   background-position: center;
@@ -42,7 +42,7 @@
 .menu li {
   padding: 1rem;
   color: #ffffff;
-  font-family: Baloo 2;
+  font-family: 'Montserrat Alternates', sans-serif;
   font-size: 22px;
   font-weight: 500;
   line-height: 72px;
@@ -59,7 +59,10 @@
 .divTextos {
   display: flex;
   flex-direction: column;
-  max-width: 500px;
+  justify-content: space-between;
+  gap: 4rem;
+  max-width: 600px;
+  padding: 3rem;
   align-items: center;
 }
 
@@ -86,15 +89,13 @@
   align-items: center;
   width: 223px;
   height: 48px;
-  left: 100px;
-  top: 538px;
   background: #ff5d55;
   border-radius: 100px;
 }
 .botao h1 {
   font-family: 'Montserrat Alternates', sans-serif;
   font-weight: 600;
-  font-size: 22px;
+  font-size: 20px;
   line-height: 22px;
   letter-spacing: -0.02em;
   color: #ffffff;
