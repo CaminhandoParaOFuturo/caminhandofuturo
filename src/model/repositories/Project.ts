@@ -22,14 +22,14 @@ let projectList: ProjectInterface[] = [
     {
         id: "CEI",
         name: "CENTRO DE EDUCAÇÃO INFANTIL",
-        description: "Promovem o desenvolvimento de saberes de acordo com cada faixa etária. Através de atividades educativas amparadas em projetos pedagógicos, o aprendizado ocorre por meio de brincadeiras e vivências lúdicas. Oferecem atividades de educação e desenvolvimento pedagógico, cinco refeições completas e planejadas por nutricionistas, e o cuidado constante com a saúde e higiene.",
+        description: "Um espaço coletivo privilegiado de vivência da infância, que visa contribuir na construção da identidade social e cultural dos bebê e das crianças, fortalecendo o trabalho integrado do cuidar e do educar, numa ação complementar à da família e da comunidade, objetivando proporcionar condições adequadas para promover educação, proteção, segurança, alimentação, cultura, saúde e lazer, com vistas à inserção, prevenção, promoção e proteção à infância”, atende os princípios estabelecidos nas Diretrizes Curriculares Nacionais para a Educação Infantil.",
         targetAudience: "0 a 4 anos",
         image: "CEI.png"
     },
     {
         id: "CCA",
         name: "CENTRO DE CRIANÇA E ADOLESCENTE",
-        description: "Com objetivo de criar uma proteção integral à criança e adolescente que possa estar em situação de risco ou vulnerabilidade social. Através de atividades transdisciplinares incita o desenvolvimento intelectual ao mesmo tempo em que cria um ambiente de socialização.",
+        description: "Desenvolvemos atividades com crianças e adolescentes, tendo por foco a constituição de espaço de convivência a partir dos interesses, demandas e potencialidades. As intervenções devem ser pautadas em experiências lúdicas, culturais e esportivas como formas de expressão, interação, aprendizagem, sociabilidade e proteção social. Atendemos crianças e adolescentes em situação de risco e vulnerabilidade pessoal e social, priorizando famílias de baixa renda. Proporcionamos experiências favorecedoras no desenvolvimento de sociabilidades e prevenção de situações de risco social, como preconiza o Plano Nacional de Assistência Social.",
         targetAudience: "6 a 14 anos",
         image: "CCA.png"
     }

@@ -2,7 +2,6 @@
   display: flex;
   justify-content: right;
   flex-direction: column;
-  padding: 4rem;
   width: 100%;
 }
 .pSobre {
@@ -21,13 +20,11 @@
   line-height: 22px;
   letter-spacing: -0.02em;
   color: #7c7c7c;
+  white-space: nowrap;
 }
 
 .instSobre {
-  width: 261px;
-  height: 108px;
-  left: 130px;
-  top: 907px;
+  width: 500px;
   font-family: 'Baloo 2';
   font-style: normal;
   font-weight: 400;
@@ -35,11 +32,77 @@
   line-height: 54px;
   letter-spacing: -0.02em;
   color: #303030;
+  margin: 0;
 }
 .divSobreCard {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
+}
+.divSobre {
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+
+.resumeDiv {
+  background-color: #F8F8F8;
+  padding: 5% 2% 5% 2%;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+.resumeInfos {
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+.resumeTitle {
+  width: 509px;
+  height: 204px;
+
+  font-family: 'Baloo 2';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 54px;
+  line-height: 68px;
+
+  letter-spacing: -0.02em;
+  color: #733DCB;
+}
+.resumeText {
+  width: 560px;
+  height: 246px;
+  
+  font-family: 'Baloo 2';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 36px;
+  /* or 164% */
+  
+  letter-spacing: -0.02em;
+  
+  color: #303030;
+}
+
+.resumeImageParent {
+  position: relative;
+}
+.resumeImage, .resumeImageBackground1, .resumeImageBackground2 {
+  width: 610px;
+  height: 610px;
+  border-radius: 300px 10px 300px 300px;
+  position: absolute;
+}
+.resumeImage {
+  background: #C4C4C4;
+  z-index: 999;
+}
+.resumeImageBackground1 {
+  background: #FF5D55;
+  transform: rotate(-3.83deg);
+}
+.resumeImageBackground2 {
+  background: #FFBF1F;
+  transform: rotate(6.98deg);
 }
 
 .sobreCard {
@@ -74,8 +137,8 @@
   border-radius: 40px;
   margin-top: 2rem;
   background: #c7b1ea;
-  border: 1px solid #733dcb;
-  color: #733dcb;
+  border: 1px solid #733DCB;
+  color: grey;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
   border-radius: 40px;
 }
@@ -86,7 +149,7 @@
   width: 350px;
   border-radius: 40px;
   margin-top: 2rem;
-  color: #ffbf1f;
+  color: grey;
   background: #ffeab7;
   border: 1px solid #ffbf1f;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
@@ -102,7 +165,7 @@
   border-radius: 40px;
   background: #ffc9c7;
   border: 1px solid #ff5d55;
-  color: #ff5d55;
+  color: grey;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
   border-radius: 40px;
 }

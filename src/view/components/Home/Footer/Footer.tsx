@@ -1,14 +1,14 @@
 import React from 'react';
 import BtnScrollHeader from '../BtnScrollHeader/BtnScrollHeader';
 import Link from 'next/link'
-import styles from './Header.module.css';
+import styles from './Footer.module.css';
 
 
-const Header = () => {
+const Footer = () => {
   return (
     <>
     <div className={styles.header}>
-      <div className={styles.divMenu}>
+      {/* <div className={styles.divMenu}>
         <img src={'/images/Artboard 1 1.png'} alt="logo" />
         <div className={styles.menu}>
           <ul>
@@ -27,13 +27,9 @@ const Header = () => {
                 <a>Nossos Nucleos</a>
               </Link>
             </li>
-            {/* <li>Sobre Nós</li>
-            <li>Ajude</li>
-            <li>Parceiros</li>
-            <li>Contatos</li> */}
           </ul>
         </div>
-      </div>
+      </div> */}
 
       {/* <div className={styles.divTextosContainer}>
         <div className={styles.divTextos}>
@@ -52,4 +48,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Footer;
