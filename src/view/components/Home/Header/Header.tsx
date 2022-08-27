@@ -32,8 +32,12 @@ const Header = () => {
                 <a>Sobre Nós</a>
               </Link>
             </li>
-           {/*  <li>Ajude</li>
-            <li>Parceiros</li>
+           <li>
+              <Link href="/Ajude">
+                    <a>Ajude</a>
+              </Link>
+            </li>
+            {/*  <li>Parceiros</li>
             <li>Contatos</li> */}
           </ul>
         </div>
