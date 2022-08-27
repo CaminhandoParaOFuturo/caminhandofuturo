@@ -27,8 +27,12 @@ const Header = () => {
                 <a>Nossos Nucleos</a>
               </Link>
             </li>
-            {/* <li>Sobre Nós</li>
-            <li>Ajude</li>
+            <li>
+               <Link href="/sobre">
+                <a>Sobre Nós</a>
+              </Link>
+            </li>
+           {/*  <li>Ajude</li>
             <li>Parceiros</li>
             <li>Contatos</li> */}
           </ul>
