@@ -39,13 +39,20 @@
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
+.divSobreCardMob {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
 .divSobre {
   margin-left: 4rem;
   margin-right: 4rem;
 }
 
 .resumeDiv {
-  background-color: #F8F8F8;
+  background-color: #f8f8f8;
   padding: 5% 2% 5% 2%;
   margin-top: 4rem;
   margin-bottom: 4rem;
@@ -55,7 +62,7 @@
   margin-right: 4rem;
 }
 .resumeTitle {
-  width: 509px;
+  width: 500px;
   height: 204px;
 
   font-family: 'Baloo 2';
@@ -65,43 +72,45 @@
   line-height: 68px;
 
   letter-spacing: -0.02em;
-  color: #733DCB;
+  color: #733dcb;
 }
 .resumeText {
-  width: 560px;
+  max-width: 500px;
   height: 246px;
-  
+
   font-family: 'Baloo 2';
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
   line-height: 36px;
   /* or 164% */
-  
+
   letter-spacing: -0.02em;
-  
+
   color: #303030;
 }
 
 .resumeImageParent {
   position: relative;
 }
-.resumeImage, .resumeImageBackground1, .resumeImageBackground2 {
+.resumeImage,
+.resumeImageBackground1,
+.resumeImageBackground2 {
   width: 610px;
   height: 610px;
   border-radius: 300px 10px 300px 300px;
   position: absolute;
 }
 .resumeImage {
-  background: #C4C4C4;
+  background: #c4c4c4;
   z-index: 999;
 }
 .resumeImageBackground1 {
-  background: #FF5D55;
+  background: #ff5d55;
   transform: rotate(-3.83deg);
 }
 .resumeImageBackground2 {
-  background: #FFBF1F;
+  background: #ffbf1f;
   transform: rotate(6.98deg);
 }
 
@@ -137,7 +146,7 @@
   border-radius: 40px;
   margin-top: 2rem;
   background: #c7b1ea;
-  border: 1px solid #733DCB;
+  border: 1px solid #733dcb;
   color: grey;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
   border-radius: 40px;
@@ -168,4 +177,8 @@
   color: grey;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
   border-radius: 40px;
+}
+.Grid {
+  display: flex;
+  flex-direction: column;
 }

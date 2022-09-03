@@ -15,6 +15,6 @@
     "jsx": "preserve",
     "incremental": true
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "src/view/components/Home/Sobre/CardsSobre.js", "src/view/components/Home/Sobre/Sobre.js", "src/view/components/Home/Sobre/Sobre..js"],
   "exclude": ["node_modules"]
 }
