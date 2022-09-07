@@ -1,0 +1,17 @@
+.ContainerCC {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ContainerCC img {
+  width: 10rem;
+}
+.DivConta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+.DivConta strong {
+  padding: 1rem;
+}

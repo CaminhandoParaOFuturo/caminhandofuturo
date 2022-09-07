@@ -17,15 +17,7 @@ const Header = () => {
     <div className={styles.header}>
       <div className={styles.divMenu}>
         <img src={'/images/Artboard 1 1.png'} alt="logo" className={styles.imgMobile} />
-        {mobile && (
-        <button
-          className={`${styles.mobileButton} ${
-            ativo && styles.mobileButtonAtivo
-          }`}
-          aria-label="Menu"
-          onClick={ToogleMode}
-        ></button>
-      )}
+    
 
  <div className={ styles.menu}>
             <ul >

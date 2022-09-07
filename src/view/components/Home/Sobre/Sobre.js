@@ -4,6 +4,7 @@ import CardsSobre from './CardsSobre';
 import { Grid } from '@mui/material';
 import Link from 'next/link';
 import useMedia from '../../../../Hooks/useMedia';
+import SobreNos from '../../SobreNos/SobreNos';
 
 const Sobre = () => {
   const mobile = useMedia('(max-width: 60rem)');

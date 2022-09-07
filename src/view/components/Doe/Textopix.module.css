@@ -1,0 +1,21 @@
+.containerTexto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.2rem;
+}
+
+.numero {
+  width: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ff5d55;
+  color: #fff;
+  border-radius: 50%;
+  margin: 0.4rem;
+}
+.Texto {
+  color: #303030;
+  font-family: 'Baloo 2';
+}
