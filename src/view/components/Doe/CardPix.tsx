@@ -8,7 +8,7 @@ import Textopix from './Textopix';
 const CardPix = () => {
   const iputPix = useRef(null);
   const mobile = useMedia('(max-width: 60rem)');
-console.log(mobile)
+
   return (
     <div className={ mobile ?styles.cardPixMobile : styles.cardPix }>
           
@@ -25,7 +25,7 @@ console.log(mobile)
         <strong>Ou</strong>
         <div className={styles.Scaneie}> 
         <p> Escaneie este código</p>
-          <img src="/images/qrcode-pix.png" alt="" />
+          <img src="/images/qrcode-pix.png" alt="qr code pix" />
         </div>
         </div> 
         <div className={styles.Subcontainer}>  

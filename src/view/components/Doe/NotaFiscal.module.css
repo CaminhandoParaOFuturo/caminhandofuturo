@@ -4,35 +4,21 @@
   align-items: center;
   flex-direction: column;
 }
-.cabe {
+
+.ContainerNotaMobile .cabe h1 {
+  font-size: 1rem;
+}
+
+.divContent {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
-.cabe h1 {
-  font-family: 'Baloo 2';
-  font-style: normal;
-  font-weight: 900;
-  font-size: 3rem;
-  letter-spacing: -0.02em;
-  color: #ff5d55;
-  border: solid 1px #ffc9c7;
-  border-radius: 5px;
-  padding: 1rem;
-}
-.cabe p {
-  /* color: #303030; */
-  font-family: 'Baloo 2';
-  font-size: 1.5rem;
-  background: #ff5d55;
-  color: #fff;
-  padding: 1rem;
-  border-radius: 5px;
+  justify-content: space-between;
+  align-items: flex-end;
+
+  width: 100%;
 }
 .passos {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   flex-direction: column;
+  margin: 1rem;
 }

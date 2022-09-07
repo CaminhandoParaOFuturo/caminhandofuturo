@@ -13,6 +13,7 @@
   width: 40%;
 }
 .cardI strong {
+  font-family: 'Montserrat Alternates', sans-serif;
   padding: 0.8rem;
 }
 .cardI img {
@@ -35,7 +36,7 @@
   justify-content: center;
   align-items: center;
   color: #303030;
-  font-family: 'Baloo 2';
+  font-family: 'Montserrat Alternates', sans-serif;
   font-size: 1.5rem;
   padding: 0.3rem;
 }
@@ -44,7 +45,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  font-family: 'Baloo 2';
+  font-family: 'Montserrat Alternates', sans-serif;
   font-size: 22px;
   flex-wrap: wrap;
 }

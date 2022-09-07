@@ -1,19 +1,24 @@
 import React from 'react'
+import useMedia from '../../../Hooks/useMedia';
 import styles from './NotaFiscal.module.css';
 import Textopix from './Textopix';
 
 export const NotaFiscal = () => {
+  
+  const mobile = useMedia('(max-width: 60rem)');
   return (
-    <div className={styles.ContainerNota}>
-      <div className={styles.cabe}>
-        <h1>Nota Fiscal paulista</h1>
-        <p>Voçê pode fazer sua doação automaticamnete e bem rapidinho !</p>
+    <div className={mobile ?styles.ContainerNotaMobile: styles.ContainerNota}>
+      <div className={styles.divContent}> 
+      <div>
+         <img src='/images/nota.png' alt="nota fiscal paulista" />
       </div>
-      <div className={styles.passos}>
-        <Textopix texto ='Para isso entre no site' numero='1'link='nfp.fazenda.sp.gov.br'/>
-        <Textopix texto ='Faça o login e selecione entidades doação de cupons com CPF' str='(Automático)'numero='2'/>
-        <Textopix texto=' Escolha a Sociedade Beneficente Caminhando para o Futuro CNPJ: 'numero='3'str="47.389.788/0003-03"/>
+         <div className={styles.passos}>
+          <Textopix texto ='Para isso entre no site' numero='1'link='nfp.fazenda.sp.gov.br'/>
+          <Textopix texto ='Faça o login e selecione entidades doação de cupons com CPF' str='(Automático)'numero='2'/>
+          <Textopix texto=' Escolha a Sociedade Beneficente Caminhando para o Futuro CNPJ: 'numero='3'str="47.389.788/0003-03"/>
+        </div>
       </div>
+     
   
     </div>
   )
