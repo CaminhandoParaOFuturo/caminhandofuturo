@@ -4,6 +4,11 @@
   flex-direction: column;
   width: 100%;
 }
+
+.divSobreMobile .divSobre p {
+  font-size: 1.5rem;
+}
+
 .pSobre {
   display: flex;
   flex-direction: column;
@@ -40,11 +45,11 @@
   flex-wrap: wrap;
 }
 .divSobreCardMob {
-  display: flex;
   justify-content: center;
+  display: flex;
+  width: 100vw;
   flex-direction: column;
   align-items: center;
-  flex-wrap: wrap;
 }
 .divSobre {
   margin-left: 4rem;
@@ -89,9 +94,12 @@
 
   color: #303030;
 }
+.resumeTitleMob {
+}
 
 .resumeImageParent {
   position: relative;
+  display: flex;
 }
 .resumeImage,
 .resumeImageBackground1,
@@ -151,6 +159,19 @@
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
   border-radius: 40px;
 }
+.CardAjudeMob {
+  display: flex;
+  justify-content: center;
+  height: 452px;
+  width: 300px;
+  border-radius: 40px;
+  margin-top: 2rem;
+  background: #c7b1ea;
+  border: 1px solid #733dcb;
+  color: grey;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+  border-radius: 40px;
+}
 .cardProjetos {
   display: flex;
   justify-content: center;
@@ -181,4 +202,24 @@
 .Grid {
   display: flex;
   flex-direction: column;
+}
+.resumeImageBackground1Mob,
+.resumeImageMob,
+.resumeImageBackground2Mob {
+  width: 310px;
+  height: 310px;
+  border-radius: 300px 10px 300px 300px;
+  position: absolute;
+}
+.resumeImageMob {
+  background: #c4c4c4;
+  z-index: 999;
+}
+.resumeImageBackground1Mob {
+  background: #ffbf1f;
+  transform: rotate(6.98deg);
+}
+.resumeImageBackground2Mob {
+  background: #ff5d55;
+  transform: rotate(-3.83deg);
 }

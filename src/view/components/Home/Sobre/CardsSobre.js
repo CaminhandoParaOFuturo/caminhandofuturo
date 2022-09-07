@@ -1,7 +1,9 @@
 import React from 'react';
+import useMedia from '../../../../Hooks/useMedia';
 import styles from './CardsSobre.module.css';
 
 const CardsSobre = (props) => {
+  const mobile = useMedia('(max-width: 70rem)');
   return (
     <>
       <div className={props.cores}>

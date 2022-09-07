@@ -6,7 +6,7 @@ import useMedia from '../../../../Hooks/useMedia';
 
 const Header = () => {
 
-  const mobile = useMedia('(max-width: 40rem)');
+  const mobile = useMedia('(max-width: 60rem)');
   const [ativo, setAtivo] = React.useState(false);
   const ToogleMode = () => {
     setAtivo(!ativo);
@@ -17,9 +17,7 @@ const Header = () => {
     <div className={styles.header}>
       <div className={styles.divMenu}>
         <img src={'/images/Artboard 1 1.png'} alt="logo" className={styles.imgMobile} />
-    
-
- <div className={ styles.menu}>
+          <div className={ styles.menu}>
             <ul >
               <li>
                 <Link href="/home">

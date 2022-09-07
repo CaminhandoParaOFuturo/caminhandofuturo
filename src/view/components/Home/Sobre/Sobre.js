@@ -4,23 +4,18 @@ import CardsSobre from './CardsSobre';
 import { Grid } from '@mui/material';
 import Link from 'next/link';
 import useMedia from '../../../../Hooks/useMedia';
-import SobreNos from '../../SobreNos/SobreNos';
 
 const Sobre = () => {
-  const mobile = useMedia('(max-width: 60rem)');
+  const mobile = useMedia('(max-width: 70rem)');
 
   return (
-    <div className={styles.sobre}>
+    <div className={mobile ? styles.sobreMob : styles.sobre}>
       <div className={mobile ? styles.divSobreMobile : styles.divSobreN}>
         <div className={styles.divSobre}>
           <p className={styles.nosSobre}>SOBRE NÓS</p>
           <p className={styles.instSobre}>Conheça a instituição</p>
         </div>
-        <div
-          className={`${styles.divSobreCard} ${
-            mobile && styles.divSobreCardMob
-          }`}
-        >
+        <div className={mobile ? styles.divSobreCardMob : styles.divSobreCard}>
           <Link href="/projects">
             <a>
               <CardsSobre
@@ -57,7 +52,9 @@ const Sobre = () => {
         <div className={`${styles.resumeInfos} ${mobile && styles.s}`}>
           <Grid container spacing={1} className={mobile ? styles.Grid : ''}>
             <Grid item>
-              <p className={styles.resumeTitle}>
+              <p
+                className={mobile ? styles.resumeTitleMob : styles.resumeTitle}
+              >
                 Desde 1975 atuando na área da infância e juventude
               </p>
               <p className={styles.resumeText}>
@@ -72,12 +69,24 @@ const Sobre = () => {
             </Grid>
 
             <Grid item className={styles.resumeImageParent}>
-              <div className={styles.resumeImageBackground1}></div>
+              <div
+                className={
+                  mobile
+                    ? styles.resumeImageBackground1Mob
+                    : styles.resumeImageBackground1
+                }
+              ></div>
               <img
-                className={styles.resumeImage}
+                className={mobile ? styles.resumeImageMob : styles.resumeImage}
                 src="/images/3criancas.png"
               ></img>
-              <div className={styles.resumeImageBackground2}></div>
+              <div
+                className={
+                  mobile
+                    ? styles.resumeImageBackground2Mob
+                    : styles.resumeImageBackground2
+                }
+              ></div>
             </Grid>
           </Grid>
         </div>
