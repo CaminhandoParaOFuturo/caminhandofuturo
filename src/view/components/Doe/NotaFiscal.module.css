@@ -2,7 +2,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.ContainerNotaMobile .divContent {
+  display: flex;
+  align-items: center;
   flex-direction: column;
+}
+.ContainerNotaMobile .divContent img {
+  width: 100%;
 }
 
 .ContainerNotaMobile .cabe h1 {
@@ -13,7 +20,6 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-
   width: 100%;
 }
 .passos {
