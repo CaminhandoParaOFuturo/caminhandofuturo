@@ -1,111 +1,142 @@
-.header {
+.containerFooter {
   display: flex;
-  box-sizing: border-box;
-  align-items: center;
   flex-direction: column;
-  /* width: 100%; */
-  height: 190px;
-  height: 100%;
-  left: 0px;
-  top: 0px;
-  background: linear-gradient(
-    rgba(115, 61, 203, 0.65),
-    rgba(115, 61, 203, 0.65)
-  ),
-  url(/images/children-playing-grass\ 1.png) no-repeat;
-  background-size: cover;
-  border: 28px solid #ffffff;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-.divMenu {
-  display: flex;
-  justify-content: space-evenly;
-  width: 100%;
-}
-.divMenu img {
-  height: 103px;
-  width: 223px;
-  left: 100px;
-  top: 72px;
-  border-radius: 0px;
-  background-size: cover;
-}
-.menu {
-  display: flex;
-  align-items: center;
   justify-content: center;
-}
-.menu ul {
-  display: flex;
-  list-style: none;
-}
-.menu li {
-  padding: 1rem;
-  color: #ffffff;
-  font-family: 'Montserrat Alternates', sans-serif;
-  font-size: 22px;
-  font-weight: 500;
-  line-height: 72px;
-  letter-spacing: -0.02em;
-  text-align: left;
-}
-.divTextosContainer {
-  display: flex;
-  justify-content: left;
-  flex-direction: column;
+  align-items: center;
+  background: #733dcb;
   width: 100%;
-  flex-wrap: nowrap;
+  margin-top: 9rem;
 }
-.divTextos {
+.containerFooterMob {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  gap: 4rem;
-  max-width: 600px;
-  padding: 3rem;
+  justify-content: center;
   align-items: center;
+  background: #733dcb;
+  width: 100%;
+  margin-top: 9rem;
+  background-color: #ff5d55;
 }
-
-.divTextoP {
+.divConteudo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 3rem;
+}
+.Subdiv {
   display: flex;
   align-items: center;
-  width: 477px;
+  justify-content: space-around;
+  width: 80%;
   height: 216px;
-  left: 100px;
-  top: 274px;
-  font-family: 'Montserrat Alternates', sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 72px;
-  line-height: 72px;
-  letter-spacing: -0.02em;
-  color: #ffffff;
-  padding: 2rem;
+  background: #fafafa;
+  border-radius: 10px;
+  position: relative;
+  bottom: 5rem;
+  -webkit-box-shadow: -1px -7px 32px 7px rgba(115, 61, 203, 0.71);
+  box-shadow: -1px -7px 32px 7px rgba(115, 61, 203, 0.71);
 }
 
+.SubdivMob {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  max-width: 50%;
+  height: 216px;
+  background: #fafafa;
+  border-radius: 10px;
+  position: relative;
+  bottom: 5rem;
+  -webkit-box-shadow: -1px -7px 32px 7px rgba(115, 61, 203, 0.71);
+  box-shadow: -1px -7px 32px 7px rgba(115, 61, 203, 0.71);
+}
+.conatinerDivTexto {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
 .botao {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 223px;
   height: 48px;
+  left: 1117px;
+  bottom: 228px;
   background: #ff5d55;
   border-radius: 100px;
-}
-.botao h1 {
-  font-family: 'Montserrat Alternates', sans-serif;
+  font-family: 'Baloo 2';
+  font-style: normal;
   font-weight: 600;
+  font-size: 22px;
+  line-height: 22px;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+}
+.paragrafo {
+  font-family: 'Baloo 2';
+  font-style: normal;
+  font-weight: 500;
   font-size: 20px;
   line-height: 22px;
   letter-spacing: -0.02em;
   color: #ffffff;
-  padding: 2rem;
 }
 
-.btnDivScroll {
+/* mobile */
+
+.containerFooterMob {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background: #733dcb;
   width: 100%;
-  background-color: #ff5d55;
-  bottom: 0;
-  left: 0;
+  margin-top: 9rem;
 }
+
+.SubdivMob {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  background: #fafafa;
+  border-radius: 10px;
+  position: relative;
+  bottom: 5rem;
+  -webkit-box-shadow: -1px -7px 32px 7px rgba(115, 61, 203, 0.71);
+  box-shadow: -1px -7px 32px 7px rgba(115, 61, 203, 0.71);
+}
+.SubdivMob img {
+  display: flex;
+  flex-wrap: wrap;
+  background-size: cover;
+  width: 3rem;
+}
+
+.divConteudoMob {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #733dcb;
+}
+
+.conatinerDivTextoMob {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+.conatinerDivTextoMob p {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 1rem;
+}
+
+/* mobile */

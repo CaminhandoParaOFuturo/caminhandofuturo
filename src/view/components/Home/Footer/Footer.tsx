@@ -2,48 +2,33 @@ import React from 'react';
 import BtnScrollHeader from '../BtnScrollHeader/BtnScrollHeader';
 import Link from 'next/link'
 import styles from './Footer.module.css';
+import useMedia from '../../../../Hooks/useMedia';
 
 
 const Footer = () => {
+  const mobile = useMedia('(max-width: 60rem)')
   return (
     <>
-    <div className={styles.header}>
-      {/* <div className={styles.divMenu}>
-        <img src={'/images/Artboard 1 1.png'} alt="logo" />
-        <div className={styles.menu}>
-          <ul>
-            <li>
-              <Link href="/home">
-                <a>Home</a>
-              </Link>
-            </li>
-            <li>
-              <Link href="/projects">
-                <a>Nossos Projetos</a>
-              </Link>
-            </li>
-            <li>
-              <Link href="/nucleus">
-                <a>Nossos Nucleos</a>
-              </Link>
-            </li>
-          </ul>
+        <div className={mobile ? styles.containerFooterMob :styles.containerFooter }>
+            <div className={mobile ?styles.SubdivMob: styles.Subdiv}>
+              <img src='/images/provida.png' alt="" />
+              <img src='/images/bb.png' alt="" />
+              <img src='/images/sabesp.png' alt="" />
+              <img src='/images/fundoSocial.png' alt="" />
+              <img src='/images/adoteSorriso.png' alt="" />
+              <img src='/images/fundacao.png' alt="" />
+            </div>
+             <div className={mobile ?styles.divConteudoMob: styles.divConteudo}>
+                <div> 
+                  <img src='/images/Artboard 1 1.png' alt="" />
+                </div>
+                <div className={mobile ?styles.conatinerDivTextoMob: styles.conatinerDivTexto}>
+                <div className={styles.botao}>faça sua doação</div>
+                <p className={styles.paragrafo}>Av. Dep. Emílio Carlos, 2224 - Limão, São Paulo - SP</p>
+                <img src="/images/instagram.png" alt=""  />
+                </div>
+            </div>
         </div>
-      </div> */}
-
-      {/* <div className={styles.divTextosContainer}>
-        <div className={styles.divTextos}>
-          <div className={styles.divTextoP}>
-            <p>Transformando através da educação</p>
-          </div>
-          <div className={styles.botao}>
-            <h1>faça sua doação</h1>
-          </div>
-        </div>
-       <BtnScrollHeader/>
-      </div> */}
-    </div>
-
     </>
   );
 };

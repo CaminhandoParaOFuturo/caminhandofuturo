@@ -14,10 +14,17 @@ const Header = () => {
 
   return (
     <>
-    <div className={styles.header}>
-      <div className={styles.divMenu}>
-        <img src={'/images/Artboard 1 1.png'} alt="logo" className={styles.imgMobile} />
-          <div className={ styles.menu}>
+    <div className={mobile ? styles.headerMob : styles.header}>
+
+        <div className={mobile ? styles.divImgMob :styles.divImg }>
+           <img src={'/images/Artboard 1 1.png'} alt="logo" className={mobile ? styles.imgMobile:styles.imgNor} />
+           <p>Transformando através da educação</p>
+           <div className={styles.botaoDiv}>
+            faça sua doação
+           </div>
+        </div>
+       
+          <div className={ mobile ?styles.menuMob  : styles.menu}>
             <ul >
               <li>
                 <Link href="/home">
@@ -41,7 +48,7 @@ const Header = () => {
               </li>
             </ul>
           </div>
-        </div> 
+   
       </div>
     </>
   );

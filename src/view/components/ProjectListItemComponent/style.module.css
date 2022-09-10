@@ -1,57 +1,58 @@
 .card {
-    padding: 0rem 1rem;
-    text-align: left;
-    color: inherit;
-    text-decoration: none;
-    border: 1px solid #eaeaea;
-    border-radius: 10px;
-    transition: color 0.15s ease, border-color 0.15s ease;
+  padding: 0rem 1rem;
+  text-align: left;
+  color: inherit;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  margin-bottom: 2rem;
 }
 
 .titleCEI {
-    color: #733dcb
+  color: #733dcb;
 }
 .titleCCA {
-    color: #ff5d55
+  color: #ff5d55;
 }
 
 .cardCEI {
-    overflow-wrap: break-word;
-    border: 2px solid #966ed8;
-    height: 325px;
+  overflow-wrap: break-word;
+  border: 2px solid #966ed8;
+  height: 325px;
 }
 .cardCCA {
-    overflow-wrap: break-word;
-    border: 2px solid #ff5d55;
-    height: 325px;
+  overflow-wrap: break-word;
+  border: 2px solid #ff5d55;
+  height: 325px;
 }
 
 .infosCEI::before {
-    color: #733dcb
+  color: #733dcb;
 }
 .infosCEI {
-    color: #733dcb
+  color: #733dcb;
 }
 .infosCCA::before {
-    color: #ff716a
+  color: #ff716a;
 }
 .infosCCA {
-    color: #ff716a
+  color: #ff716a;
 }
 
 .buttonCEI {
-    border-radius: 30px;
-    text-transform: none;
-    background-color: #733dcb;
-    font-family: "Baloo 2";
+  border-radius: 30px;
+  text-transform: none;
+  background-color: #733dcb;
+  font-family: 'Baloo 2';
 }
 .buttonCCA {
-    border-radius: 30px;
-    text-transform: none;
-    background-color: #ff716a;
-    font-family: "Baloo 2";
+  border-radius: 30px;
+  text-transform: none;
+  background-color: #ff716a;
+  font-family: 'Baloo 2';
 }
 
 .nobr {
-    white-space: nowrap;
+  white-space: nowrap;
 }

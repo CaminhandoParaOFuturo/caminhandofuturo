@@ -1,20 +1,6 @@
 .sobre {
-  display: flex;
-  justify-content: right;
-  flex-direction: column;
-  width: 100%;
+  margin-bottom: 8rem;
 }
-
-.divSobreMobile .divSobre p {
-  font-size: 1.5rem;
-}
-
-.pSobre {
-  display: flex;
-  flex-direction: column;
-  width: 400px;
-}
-
 .nosSobre {
   width: 90px;
   top: 861px;
@@ -44,108 +30,15 @@
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
-.divSobreCardMob {
-  justify-content: center;
-  display: flex;
-  width: 100vw;
-  flex-direction: column;
-  align-items: center;
-}
 .divSobre {
-  margin-left: 4rem;
-  margin-right: 4rem;
+  margin: 2rem;
 }
 
-.resumeDiv {
-  background-color: #f8f8f8;
-  padding: 5% 2% 5% 2%;
-  margin-top: 4rem;
-  margin-bottom: 4rem;
-}
-.resumeInfos {
-  margin-left: 4rem;
-  margin-right: 4rem;
-}
-.resumeTitle {
-  width: 500px;
-  height: 204px;
-
-  font-family: 'Baloo 2';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 54px;
-  line-height: 68px;
-
-  letter-spacing: -0.02em;
-  color: #733dcb;
-}
-.resumeText {
-  max-width: 500px;
-  height: 246px;
-
-  font-family: 'Baloo 2';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 22px;
-  line-height: 36px;
-  /* or 164% */
-
-  letter-spacing: -0.02em;
-
-  color: #303030;
-}
-.resumeTitleMob {
-}
-
-.resumeImageParent {
-  position: relative;
-  display: flex;
-}
-.resumeImage,
-.resumeImageBackground1,
-.resumeImageBackground2 {
-  width: 610px;
-  height: 610px;
-  border-radius: 300px 10px 300px 300px;
-  position: absolute;
-}
 .resumeImage {
-  background: #c4c4c4;
-  z-index: 999;
-}
-.resumeImageBackground1 {
-  background: #ff5d55;
-  transform: rotate(-3.83deg);
-}
-.resumeImageBackground2 {
-  background: #ffbf1f;
-  transform: rotate(6.98deg);
+  width: 310px;
+  border-radius: 300px 10px 300px 300px;
 }
 
-.sobreCard {
-  box-sizing: border-box;
-  width: 400px;
-  height: 452px;
-  left: 100px;
-  top: 1084px;
-  background: #c7b1ea;
-  border: 1px solid #733dcb;
-  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
-  border-radius: 40px;
-}
-
-.sobreCard p {
-  width: 187px;
-  height: 104px;
-  left: 562px;
-  top: 1390px;
-  font-family: 'Baloo 2';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 52px;
-  line-height: 52px;
-  letter-spacing: -0.02em;
-}
 .CardAjude {
   display: flex;
   justify-content: center;
@@ -199,27 +92,115 @@
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
   border-radius: 40px;
 }
-.Grid {
+.container {
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 2rem;
   display: flex;
-  flex-direction: column;
+  height: 100%;
 }
-.resumeImageBackground1Mob,
-.resumeImageMob,
-.resumeImageBackground2Mob {
-  width: 310px;
+.containerTexto {
+  width: 50%;
+}
+.containerTexto {
+  width: 50%;
+}
+.textoCabe {
+  height: 204px;
+  left: 100px;
+  top: 1865px;
+  font-family: 'Baloo 2';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 68px;
+  letter-spacing: -0.02em;
+  color: #733dcb;
+}
+.resumeText {
+  width: 560px;
+  height: 246px;
+  left: 100px;
+  top: 2095px;
+  font-family: 'Baloo 2';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 36px;
+  letter-spacing: -0.02em;
+  color: #303030;
+}
+.imagem2 {
+  width: 340px;
   height: 310px;
-  border-radius: 300px 10px 300px 300px;
-  position: absolute;
-}
-.resumeImageMob {
-  background: #c4c4c4;
-  z-index: 999;
-}
-.resumeImageBackground1Mob {
+  left: 734.1px;
+  top: 1771px;
   background: #ffbf1f;
+  border-radius: 300px 10px 300px 300px;
   transform: rotate(6.98deg);
 }
-.resumeImageBackground2Mob {
+.imagem3 {
+  width: 310px;
+  height: 310px;
+  left: 666px;
+  top: 1796.78px;
+
   background: #ff5d55;
+  border-radius: 300px 10px 300px 300px;
   transform: rotate(-3.83deg);
 }
+
+.containerImagem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+/* mobile */
+.containerMob {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+.containerTextoMob {
+  margin-bottom: 2rem;
+}
+.containerTextoMob p {
+  margin: 1rem;
+}
+
+.resumeTextMob {
+  width: 100%;
+  font-family: 'Baloo 2';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 36px;
+  letter-spacing: -0.02em;
+  color: #303030;
+  padding: 3rem;
+}
+
+.textoCabeMob {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-family: 'Baloo 2';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 68px;
+  letter-spacing: -0.02em;
+  color: #733dcb;
+}
+.divSobreCardMob {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* mobile */
