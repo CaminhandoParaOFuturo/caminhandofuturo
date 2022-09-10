@@ -23,7 +23,10 @@ const Footer = () => {
                   <img src='/images/Artboard 1 1.png' alt="" />
                 </div>
                 <div className={mobile ?styles.conatinerDivTextoMob: styles.conatinerDivTexto}>
-                <div className={styles.botao}>faça sua doação</div>
+                <div className={styles.botao}> 
+                  <Link href="/Ajude">
+                      <a>Faça sua doação</a>
+                  </Link></div>
                 <p className={styles.paragrafo}>Av. Dep. Emílio Carlos, 2224 - Limão, São Paulo - SP</p>
                 <img src="/images/instagram.png" alt=""  />
                 </div>

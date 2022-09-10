@@ -20,7 +20,9 @@ const Header = () => {
            <img src={'/images/Artboard 1 1.png'} alt="logo" className={mobile ? styles.imgMobile:styles.imgNor} />
            <p>Transformando através da educação</p>
            <div className={styles.botaoDiv}>
-            faça sua doação
+                <Link href="/Ajude">
+                  <a>    faça sua doação</a>
+                </Link>
            </div>
         </div>
        
