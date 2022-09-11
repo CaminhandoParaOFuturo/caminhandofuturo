@@ -4,18 +4,20 @@ import styles from './CardPix.module.css';
 import ContaCorrente from './ContaCorrente';
 import { NotaFiscal } from './NotaFiscal';
 import Textopix from './Textopix';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import { ContentCopy } from '@mui/icons-material';
 
-const CardPix = () => {
-  const iputPix = useRef(null);
+const CardPix = () => {   debugger
   const mobile = useMedia('(max-width: 60rem)');
-  function copyToClipBoard() {
+  const elemento = useRef(null)
+  const textAreaRef  =  useRef(null)
 
-    var content = document.getElementById('input');
-    
-    content?.onselect;
-    document.execCommand('copy');
 
-    alert("Copied!");
+  
+const copyToClipboard =()=>{
+  const notify = () => toast.success("Pix copiado");
+  notify()
 }
 
   return (
@@ -28,8 +30,9 @@ const CardPix = () => {
             <Textopix texto ="Confirma os dados da Caminhando para o Futuro e pronto" numero='3'/>
           </div>
             <div className={styles.DivCopiarpix}>   
-               <input type="text" ref={iputPix} className={styles.input} value="00020126360014BR.GOV.BCB.PIX0114473897880001335204000053039865802BR5924Caminhando Para o Futuro6009Sao Paulo62070503***6304A7AD" />
-               <button onClick={copyToClipBoard}>Copiar</button>
+               <input id='inputtext' value="00020126360014BR.GOV.BCB.PIX0114473897880001335204000053039865802BR5924Caminhando Para o Futuro6009Sao Paulo62070503***6304A7AD" />
+               <button  onClick={copyToClipboard}  >Copiar</button>
+               <ToastContainer />
              </div>        
        
         </div>
