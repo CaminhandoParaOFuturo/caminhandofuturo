@@ -49,6 +49,23 @@
   font-size: 22px;
   flex-wrap: wrap;
 }
+.DivCopiarpix {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.DivCopiarpix button {
+  position: absolute;
+  border: none;
+  margin-right: 2px;
+  font-weight: 600;
+  border-radius: 10px;
+}
+.DivCopiarpix button:hover {
+  color: white;
+  background-color: #ff5d55;
+}
 .input:focus {
   outline: none;
 }
