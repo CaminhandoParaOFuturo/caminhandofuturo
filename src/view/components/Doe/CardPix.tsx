@@ -17,7 +17,14 @@ const CardPix = () => {   debugger
   
 const copyToClipboard =()=>{
   const notify = () => toast.success("Pix copiado");
-  notify()
+  
+
+  var text = "00020126360014BR.GOV.BCB.PIX0114473897880001335204000053039865802BR5924Caminhando Para o Futuro6009Sao Paulo62070503***6304A7AD";
+    navigator.clipboard.writeText(text).then(function() {
+      notify()
+    }, function(err) {
+      console.error('Async: Could not copy text: ', err);
+    });
 }
 
   return (
