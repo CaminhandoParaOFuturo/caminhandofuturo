@@ -1,6 +1,6 @@
 import React, { useRef, useState } from 'react'
 import useMedia from '../../../Hooks/useMedia';
-import styles from './CardPix.module.css';
+import styles from './Cardpix.module.css';
 import ContaCorrente from './ContaCorrente';
 import { NotaFiscal } from './NotaFiscal';
 import Textopix from './Textopix';

@@ -1,10 +1,10 @@
 import React from 'react'
 import CardPix from './CardPix';
-import styles from './Doe.module.css';
+import  './doe.module.css';
 
 const Doe = () => {
   return (
-    <div className={styles.Container}>
+    <div className='container'>
       <CardPix/>
     </div>
   )
